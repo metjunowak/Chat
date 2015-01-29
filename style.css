@@ -1,0 +1,105 @@
+body {
+	background: url(background.jpg);
+	background-size: 100% 100%;
+	text-align: center;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+#login-box {
+	height: 65%;
+	width: 30%;
+	background-color: #033750;
+	position: absolute;
+	top: 18%;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	box-shadow: 0px 2px 2px #333;
+}
+
+#login-top {
+	height: 30%;
+	width: 100%;
+	background-color: #e75855;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+#avatar {
+	height: 143px;
+	width: 143px;
+	border-radius: 100%;
+	background-color: #fff;
+	top: 55%;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.input {
+	background-color: #19495f;
+	border: 2px solid #19495f;
+	position: relative;
+	top: 75%;
+	height: 37%;
+	width: 55%;
+	border-radius: 20px;
+	color: #63b9bc;
+	font-family: "Josefin Sans";
+	font-size: 3em;
+	padding: 2px 25px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.input:focus {
+	border: 2px solid #399fa4;
+
+}
+
+#login-box .submit {
+	position: relative;
+	display: block;
+	top: 150%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 37%;
+	width: 55%;
+	background-color: #19495f;
+	border: 2px solid #47a877;
+	border-radius: 20px;
+	color: #63b9bc;
+	font-family: "Josefin Sans";
+	font-size: 2em;
+	padding: 2px 25px;
+}
+
+#login-box .submit:active {
+	border-color: #66c796;
+	color: #66c796;
+}
+
+h1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #fff;
+	font-family: "Josefin Sans";
+	font-size: 5em;
+	font-weight: 300;
+	opacity: 0.7;
+}
