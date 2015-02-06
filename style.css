@@ -12,8 +12,8 @@ html {
 }
 
 #login-box {
-	height: 65%;
-	width: 30%;
+	width: 350px;
+	min-height: 420px;
 	background-color: #033750;
 	position: absolute;
 	top: 18%;
@@ -26,11 +26,15 @@ html {
 }
 
 #login-top {
-	height: 30%;
+	height: 130px;
 	width: 100%;
 	background-color: #e75855;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
+}
+
+.login-form-container {
+	margin-top: 105px;
 }
 
 #avatar {
@@ -38,7 +42,7 @@ html {
 	width: 143px;
 	border-radius: 100%;
 	background-color: #fff;
-	top: 55%;
+	top: 50px;
 	left: 0;
 	right: 0;
 	margin-right: auto;
@@ -49,8 +53,6 @@ html {
 .input {
 	background-color: #19495f;
 	border: 2px solid #19495f;
-	position: relative;
-	top: 75%;
 	height: 37%;
 	width: 55%;
 	border-radius: 20px;
@@ -61,6 +63,7 @@ html {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 25px;
 }
 
 .input:focus {
@@ -69,9 +72,7 @@ html {
 }
 
 #login-box .submit {
-	position: relative;
 	display: block;
-	top: 150%;
 	margin-right: auto;
 	margin-left: auto;
 	height: 37%;
@@ -83,6 +84,8 @@ html {
 	font-family: "Josefin Sans";
 	font-size: 2em;
 	padding: 2px 25px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
 #login-box .submit:active {
@@ -101,5 +104,5 @@ h1 {
 	font-family: "Josefin Sans";
 	font-size: 5em;
 	font-weight: 300;
-	opacity: 0.7;
+	opacity: 0.75;
 }
